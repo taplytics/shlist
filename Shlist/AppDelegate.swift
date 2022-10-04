@@ -8,7 +8,7 @@
 
 import Storez
 import UIKit
-
+import Taplytics
 
 
 @UIApplicationMain
@@ -21,6 +21,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
 
         configureUIAppearance()
+        
+        let qaoptions: [String:Any] = [
+//            TaplyticsOptionShowLaunchImage: false,
+//            TaplyticsOptionShowShakeMenu: true,
+//            TaplyticsOptionDisableBorders: false,
+            TaplyticsOptionDelayLoad: 10,
+//            TaplyticsOptionNewAdobeFormat: true,
+//            TaplyticsOptionSkipViewControllers: [String(describing: ViewControllerMainScreen.self)],
+//            "server": "staging-upcoming",
+//            TaplyticsOptionPushSandbox: 1,
+//            TaplyticsOptionLogging: true,
+//            TaplyticsOptionLogLevel: 1,
+//            "tlLogging": true,
+//            "liveUpdate": true,
+//            TaplyticsOptionFastMode: false,
+//            TaplyticsOptionUserBucketing: true,
+//            "delayResponse": 8
+        ]
+        
+        Taplytics.startAPIKey("<TL_SDK_KEY>", options: qaoptions)
  
         return true
     }

@@ -764,6 +764,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
+## Taplytics
+
+See https://taplytics.com/terms
+
 ## lottie-ios
 
                                  Apache License

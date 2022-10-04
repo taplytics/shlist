@@ -30,6 +30,7 @@ target 'Shlist' do
   pod 'PanModal'
   pod 'MarkdownView'
   pod 'SwiftEntryKit', '1.2.7'
+  pod 'Taplytics', '4.1.0'
 end
 
 target 'ShlistTests' do

@@ -57,6 +57,7 @@ PODS:
   - SwiftEntryKit (1.2.7):
     - QuickLayout (= 3.0.0)
   - SwiftIcons (3.0)
+  - Taplytics (4.1.0)
 
 DEPENDENCIES:
   - Action (~> 4.3.0)
@@ -83,6 +84,7 @@ DEPENDENCIES:
   - Storez/UserDefaults
   - SwiftEntryKit (= 1.2.7)
   - SwiftIcons (~> 3.0)
+  - Taplytics (= 4.1.0)
 
 SPEC REPOS:
   trunk:
@@ -113,6 +115,7 @@ SPEC REPOS:
     - Storez
     - SwiftEntryKit
     - SwiftIcons
+    - Taplytics
 
 SPEC CHECKSUMS:
   Action: 9891cd1b0a9047557d7e58e8dfae743e19d08197
@@ -142,7 +145,8 @@ SPEC CHECKSUMS:
   Storez: d2ee7bd3ac566bce64264379b4686f05f837da5e
   SwiftEntryKit: 537c92699d6034efb1ef9c32b11e0b37c97aa589
   SwiftIcons: 3b748e57d9eee0c7c8d3bdbf2d742c0b1b4c6172
+  Taplytics: db2679eaeac4e86141e4114ac94cf288f359d7c5
 
-PODFILE CHECKSUM: 40f78baf52b44d5091dd72d22e978428743813fe
+PODFILE CHECKSUM: 4a9a290b9db23870bc9e7812dd9f4a1bf560ca63
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.11.3
